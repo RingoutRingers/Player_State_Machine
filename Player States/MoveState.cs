@@ -57,10 +57,7 @@ namespace FightingGame
                 UpdateHitbox(player);
         }
 
-        //#Debugging.
-        /// Issue: Invincability prioritizes player 0
-        public override bool IsInvincible() => CurrentFrame > moveData.GetStartup();
-
+        
         /// <summary>
         /// Gets as list of moves that the player can cancel into base don this move state.
         /// If this move has hit, it will allow canceling of any move of a high rank but if it is not it 
