@@ -1,7 +1,8 @@
 namespace FightingGame
 {
     /// <summary>
-    /// A brief lockout
+    /// A brief lockout window after a player lands in the air. 
+    /// They will be returned to idle afterwards.
     /// </summary>
     public class LandingState : PlayerState
     {
